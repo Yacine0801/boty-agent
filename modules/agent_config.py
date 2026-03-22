@@ -14,6 +14,11 @@ def load_config(path=None):
         raise RuntimeError("No config: pass --config or set AGENT_CONFIG_PATH")
     with open(path, "r") as f:
         _config = json.load(f)
+    from config_validator import validate_config
+    validate_config(_config, [
+        "agent_id", "gws_config_dir", "firestore_sa_path",
+        "firestore_db", "firestore_node_doc",
+    ])
     return _config
 
 def get_config():
