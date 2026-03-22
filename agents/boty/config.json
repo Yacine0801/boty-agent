@@ -1,0 +1,10 @@
+{
+  "agent_id": "boty",
+  "gws_config_dir": "/home/node/.config/gws/accounts/sam",
+  "firestore_sa_path": "/workspace/project/adp-service-account.json",
+  "firestore_db": "agents",
+  "firestore_node_doc": "nodes_status/boty",
+  "chat_space": "spaces/AAQAF8zXzRE",
+  "gmail_urgent_senders": ["eline@bestoftours.co.uk", "ahmed@bestoftours.co.uk"],
+  "gmail_important_senders": ["magali", "apicil", "sabrina@bestoftours.co.uk"]
+}
