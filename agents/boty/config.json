@@ -6,5 +6,10 @@
   "firestore_node_doc": "nodes_status/boty",
   "chat_space": "spaces/AAQAF8zXzRE",
   "gmail_urgent_senders": ["eline@bestoftours.co.uk", "ahmed@bestoftours.co.uk"],
-  "gmail_important_senders": ["magali", "apicil", "sabrina@bestoftours.co.uk"]
+  "gmail_important_senders": ["magali", "apicil", "sabrina@bestoftours.co.uk"],
+  "external_comms": {
+    "mode": "blocked",
+    "internal_domains": ["@bestoftours.co.uk", "@botler360.com"],
+    "whitelist": []
+  }
 }

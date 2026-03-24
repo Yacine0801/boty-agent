@@ -4,16 +4,13 @@
   "firestore_sa_path": "/workspace/project/adp-service-account.json",
   "firestore_db": "agents",
   "firestore_node_doc": "nodes_status/thais",
-  "chat_space": "TBD",
-  "email_direct_send_whitelist": [
-    "eline@bestoftours.co.uk",
-    "ahmed@bestoftours.co.uk",
-    "maeva@bestoftours.co.uk",
-    "bernice@bestoftours.co.uk",
-    "emna@bestoftours.co.uk"
-  ],
-  "email_direct_domain": "@bestoftours.co.uk",
-  "email_draft_triggers": ["prix", "contrat", "sensible"],
+  "chat_space": "spaces/AAQA0k5_Cy4",
   "gmail_urgent_senders": ["eline@bestoftours.co.uk", "ahmed@bestoftours.co.uk"],
-  "gmail_important_senders": ["yacine@bestoftours.co.uk"]
+  "gmail_important_senders": ["yacine@bestoftours.co.uk"],
+  "email_draft_triggers": ["prix", "contrat", "sensible"],
+  "external_comms": {
+    "mode": "blocked",
+    "internal_domains": ["@bestoftours.co.uk", "@botler360.com"],
+    "whitelist": []
+  }
 }
